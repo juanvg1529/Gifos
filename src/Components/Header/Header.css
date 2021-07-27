@@ -1,0 +1,35 @@
+.Header-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 80px;
+  width: 100%;
+}
+.Header-component.dark {
+  background: #ffffff, 100%;
+}
+.Header-Button {
+  height: 43px;
+  width: 148px;
+  border: 1px solid #6809e1;
+  border-radius: 61px;
+  background: #ffffff;
+}
+.Gifos-logo-name {
+  z-index: 2;
+  color: #572ee5;
+  position: relative;
+  bottom: 19px;
+  right: 50px;
+}
+/* .btn-theme {
+  padding: 10px 25px;
+  border: 2px solid var(--purple);
+  border-radius: 25px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  color: var(--purple);
+} */
